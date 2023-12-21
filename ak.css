@@ -1,0 +1,169 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    
+}
+header{
+    padding: 20px;
+}
+header img{
+    height: 100px;
+    width: 150px;
+    display: block;
+}
+nav{
+    background-color: #ad8c42;
+}
+.menu{
+    float: left;
+}
+.menu a{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    color: rgb(158, 48, 48);
+}
+.menu a:hover{
+    text-decoration: underline;
+}
+.search{
+    float: right;
+}
+.search input{
+    padding: 5px;
+    margin: 2px;
+    width: 200px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    background-image:url(../images.webp);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.clear{
+    clear: both;
+}
+#banner{
+    position: relative;
+}
+#banner img{
+    width: 100%;
+    height:400px;
+    display: block;
+}
+.info{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: black;
+    background-color: aqua;
+    padding: 20px;
+}
+.info h2{
+    color: black;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.info span{
+    font-style: italic;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+}
+.info a{
+    margin: 20px 0;
+    color: black;
+    text-align: left;
+    padding: 2px;
+    background-color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+   /* flex-direction: row;*/
+}.box{
+    position: relative;
+    background-color: blue;
+    width: 33%;
+}
+.box img{
+    width: 100%;
+    height: 350px;
+    display: block;
+}
+.box h3{
+    color:black;
+    font-size: 30px;
+    font-family: cursive;
+}
+.hot,.stock,.discount{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 40px 20px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.hot{
+    background-color: red;
+    color: beige;
+}
+.discount{
+    background-color: blue;
+    color: black;
+}
+.stock{
+    background-color: aqua;
+    color: black;
+}
+.newsletter{
+    background-color: black;
+    padding: 80px 0;
+    text-align: center
+    background-image: ;
+}
+.newsletter form{
+    display: block;
+    text-align: center;
+}
+.newsletter input[type=submit]{
+    padding: 20px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+}
+.newsletter h4{
+    color: aqua;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer{
+    padding: 50px;
+}
+.footer_boxes{
+    display: flex;
+}
+.footer_boxes h5{
+    color: blue;
+    font-size: 20px;
+    font-family: cursive;
+}
+.footer_boxes ul{
+    list-style: none;
+}
+.footer_boxes ul li{
+    padding: 5px 0;
+}
+.footer_boxes ul li a{
+    color: hotpink;
+    font-family: serif;
+    font-size: 20px;
+    text-decoration: none;
+}
